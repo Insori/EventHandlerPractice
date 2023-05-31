@@ -21,11 +21,12 @@ namespace EventHandlerPractice
         {
             Button btn = (Button)sender;
 
-            if(btn == button1)
+            if (btn == button1)
             {
                 button1.Enabled = false;
                 button2.Enabled = true;
-            } else if(btn == button2)
+            }
+            else if (btn == button2)
             {
                 button1.Enabled = true;
                 button2.Enabled = false;
