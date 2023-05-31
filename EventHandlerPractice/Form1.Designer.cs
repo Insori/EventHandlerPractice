@@ -58,6 +58,11 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("휴먼둥근헤드라인", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -74,8 +79,10 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(177, 140);
             this.button3.TabIndex = 4;
+            this.button3.Text = "타이머 켜기";
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
             // 
